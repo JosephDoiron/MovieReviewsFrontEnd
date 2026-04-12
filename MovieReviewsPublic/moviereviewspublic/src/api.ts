@@ -12,7 +12,7 @@ function normalizeCoverImg(raw: Record<string, unknown>): Record<string, unknown
 }
 
 // GET /api/movies/featured
-// Returns up to 5 recently-added movies that have at least one published review,
+// Returns up to 6 recently-added movies that have at least one published review,
 // each paired with their most recent review.
 export async function getFeaturedMovies(): Promise<FeaturedMovie[]> {
   const res = await fetch("/api/movies/featured");

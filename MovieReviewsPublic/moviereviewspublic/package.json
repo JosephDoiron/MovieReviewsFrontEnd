@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:all": "concurrently --kill-others --names \"api,mvc,front\" --prefix-colors \"blue,green,magenta\" \"dotnet run --project d:/NSCC/2026WINTER/WEBD3000/Sprint3/movie-reviews-api-JosephDoiron/MovieReviewsAPI\" \"dotnet run --project d:/NSCC/2026WINTER/WEBD3000/Sprint1/MovieReviews --launch-profile https\" \"vite\"",
+    "dev:all": "concurrently --kill-others --names \"api,mvc,front\" --prefix-colors \"blue,green,magenta\" \"dotnet run --project c:/NSCC/WEBD3000/movie-reviews-api-JosephDoiron/MovieReviewsAPI\" \"dotnet run --project c:/NSCC/WEBD3000/movie-reviews-asp-net-core-mvc-admin-app-JosephDoiron/MovieReviews --launch-profile https\" \"vite\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
