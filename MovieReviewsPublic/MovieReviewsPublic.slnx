@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MovieReviewsPublic/moviereviewspublic.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
